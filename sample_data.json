@@ -1,0 +1,79 @@
+{
+  "inventory-table": [
+    {
+      "PutRequest": {
+        "Item": {
+          "itemId": {"S": "item-001"},
+          "name": {"S": "Organic Apples"},
+          "description": {"S": "Freshly picked organic Gala apples."},
+          "quantity": {"N": "120"},
+          "price": {"N": "0.75"},
+          "category": {"S": "Fruits"},
+          "imageUrl": {"S": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce"},
+          "createdAt": {"S": "2026-10-23T09:00:00Z"},
+          "updatedAt": {"S": "2026-10-23T09:00:00Z"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "itemId": {"S": "item-002"},
+          "name": {"S": "Whole Wheat Bread"},
+          "description": {"S": "100% whole wheat, baked daily."},
+          "quantity": {"N": "45"},
+          "price": {"N": "2.5"},
+          "category": {"S": "Bakery"},
+          "imageUrl": {"S": "https://images.unsplash.com/photo-1608198093002-9b6ff96e9de8"},
+          "createdAt": {"S": "2026-10-23T09:00:00Z"},
+          "updatedAt": {"S": "2026-10-23T09:00:00Z"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "itemId": {"S": "item-003"},
+          "name": {"S": "Free-Range Eggs (Dozen)"},
+          "description": {"S": "Large, free-range brown eggs."},
+          "quantity": {"N": "30"},
+          "price": {"N": "3.20"},
+          "category": {"S": "Dairy"},
+          "imageUrl": {"S": "https://images.unsplash.com/photo-1581937109492-8b436b8e98bd"},
+          "createdAt": {"S": "2026-10-23T09:00:00Z"},
+          "updatedAt": {"S": "2026-10-23T09:00:00Z"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "itemId": {"S": "item-004"},
+          "name": {"S": "Almond Milk 1L"},
+          "description": {"S": "Unsweetened almond milk, fortified with calcium."},
+          "quantity": {"N": "80"},
+          "price": {"N": "1.99"},
+          "category": {"S": "Beverages"},
+          "imageUrl": {"S": "https://images.unsplash.com/photo-1589893522994-b9e534be3948"},
+          "createdAt": {"S": "2026-10-23T09:00:00Z"},
+          "updatedAt": {"S": "2026-10-23T09:00:00Z"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "itemId": {"S": "item-005"},
+          "name": {"S": "Greek Yogurt Strawberry"},
+          "description": {"S": "6 oz cup, high-protein, low-fat."},
+          "quantity": {"N": "55"},
+          "price": {"N": "1.10"},
+          "category": {"S": "Dairy"},
+          "imageUrl": {"S": "https://images.unsplash.com/photo-1603309847287-53392eaea25b"},
+          "createdAt": {"S": "2026-10-23T09:00:00Z"},
+          "updatedAt": {"S": "2026-10-23T09:00:00Z"}
+        }
+      }
+    }
+  ]
+}
